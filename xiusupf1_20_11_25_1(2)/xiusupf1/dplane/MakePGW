@@ -1,4 +1,0 @@
-all:
-	gcc -g3 pgw.c app_stack.c app_command.c app_endpoint.c pfcp_parser.c pfcp_stack.c \
-	pfcp_session.c protob_gtp/protob_tlv.c protob_gtp/protob_tlv_message.c \
-	protob_gtp/protob_gtp_specs.c -o pgw -I./protob_gtp/ -I../jansson-2.13/src/ -lpthread -ljansson
