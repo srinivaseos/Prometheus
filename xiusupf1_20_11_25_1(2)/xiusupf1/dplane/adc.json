@@ -1,0 +1,17 @@
+[
+	{
+		"RGId" : 11,
+		"APPId" : 1,
+		"APPName": "" 
+	},
+	{
+		"RGId" : 21,
+		"APPId" : 2,
+		"APPName": ""
+	},
+	{
+		"RGId" : 31,
+		"APPId" : 3,
+		"APPName": ""
+	}
+]

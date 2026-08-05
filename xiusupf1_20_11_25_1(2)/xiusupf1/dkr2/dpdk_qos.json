@@ -1,0 +1,48 @@
+{
+	"qsize": {
+		"gbr": 64,
+		"non-gbr": 64
+	},
+	"pipes": 4096,
+	"print-log": 1,
+	"qci" :[
+		{"qci-id": 1,  "sub-port": 1, "resource-type": "gbr",      "priority": 2.0, "packet-delay-budget": "100ms",  "example-services": "Conversational Voice"},
+		{"qci-id": 2,  "sub-port": 1, "resource-type": "gbr",      "priority": 4.0, "packet-delay-budget": "150ms",  "example-services": "Conversational Video (Live Streaming)"},
+		{"qci-id": 3,  "sub-port": 1, "resource-type": "gbr",      "priority": 3.0, "packet-delay-budget": "50ms",   "example-services": "Real Time Gaming, V2X messages"},
+		{"qci-id": 4,  "sub-port": 1, "resource-type": "gbr",      "priority": 5.0, "packet-delay-budget": "300ms",  "example-services": "Non-Conversational Video (Buffered Streaming)"},
+		{"qci-id": 65, "sub-port": 1, "resource-type": "gbr",      "priority": 0.7, "packet-delay-budget": "75ms",   "example-services": "Mission Critical user plane Push To Talk voice (e.g., MCPTT)"},
+		{"qci-id": 66, "sub-port": 1, "resource-type": "gbr",      "priority": 2.0, "packet-delay-budget": "100ms",  "example-services": "Non-Mission-Critical user plane Push To Talk voice"},
+		{"qci-id": 67, "sub-port": 1, "resource-type": "gbr",      "priority": 1.5, "packet-delay-budget": "100ms",  "example-services": "Mission Critical Video user plane"},
+		{"qci-id": 75, "sub-port": 1, "resource-type": "gbr",      "priority": 2.5, "packet-delay-budget": "50ms",   "example-services": "V2X (Vehicle-to-everything) messages"},
+		{"qci-id": 82, "sub-port": 1, "resource-type": "gbr",      "priority": 1.9, "packet-delay-budget": "10ms",   "example-services": "Discrete Automation (small packets)"},
+		{"qci-id": 83, "sub-port": 1, "resource-type": "gbr",      "priority": 2.2, "packet-delay-budget": "10ms",   "example-services": "Discrete Automation (big packets)"},
+		{"qci-id": 84, "sub-port": 1, "resource-type": "gbr",      "priority": 2.4, "packet-delay-budget": "30ms",   "example-services": "Intelligent Transport Systems"},
+		{"qci-id": 85, "sub-port": 1, "resource-type": "gbr",      "priority": 2.1, "packet-delay-budget": "5ms",    "example-services": "Electricity Distribution- high voltage"},
+		
+		{"qci-id": 5,  "sub-port": 1, "resource-type": "non-gbr",  "priority": 1.0, "packet-delay-budget": "100ms",  "example-services": "IMS Signalling"},
+		{"qci-id": 6,  "sub-port": 1, "resource-type": "non-gbr",  "priority": 6.0, "packet-delay-budget": "300ms",  "example-services": "Video (Buffered Streaming) TCP-Based (for example, www, email, chat, ftp, p2p and the like)"},
+		{"qci-id": 7,  "sub-port": 1, "resource-type": "non-gbr",  "priority": 7.0, "packet-delay-budget": "100ms",  "example-services": "Voice, Video (Live Streaming), Interactive Gaming"},
+		{"qci-id": 8,  "sub-port": 1, "resource-type": "non-gbr",  "priority": 8.0, "packet-delay-budget": "300ms",  "example-services": "Video (Buffered Streaming) TCP-Based (for example, www, email, chat, ftp, p2p and the like)"},
+		{"qci-id": 9,  "sub-port": 1, "resource-type": "non-gbr",  "priority": 9.0, "packet-delay-budget": "300ms",  "example-services": "Video (Buffered Streaming) TCP-Based (for example, www, email, chat, ftp, p2p and the like). Typically used as default carrier"},
+		{"qci-id": 69, "sub-port": 1, "resource-type": "non-gbr",  "priority": 0.5, "packet-delay-budget": "60ms",   "example-services": "Mission Critical delay sensitive signalling (e.g., MC-PTT signalling)"},
+		{"qci-id": 70, "sub-port": 1, "resource-type": "non-gbr",  "priority": 5.5, "packet-delay-budget": "200ms",  "example-services": "Mission Critical Data (e.g. example services are the same as QCI 6/8/9)"},
+		{"qci-id": 79, "sub-port": 1, "resource-type": "non-gbr",  "priority": 6.5, "packet-delay-budget": "50ms",   "example-services": "V2X messages"},
+		{"qci-id": 80, "sub-port": 1, "resource-type": "non-gbr",  "priority": 6.8, "packet-delay-budget": "10ms",   "example-services": "Low latency eMBB applications (TCP/UDP-based); Augmented Reality"}
+	],
+	"tc-mb": 
+	[
+		{"uplink":  10, "downlink":  10},
+		{"uplink":  20, "downlink":  20},
+		{"uplink":  30, "downlink":  30},
+		{"uplink":  40, "downlink":  40},
+		{"uplink":  50, "downlink":  50},
+		{"uplink":  60, "downlink":  60},
+		{"uplink":  70, "downlink":  70},
+		{"uplink":  80, "downlink":  80},
+		{"uplink":  90, "downlink":  90},
+		{"uplink": 100, "downlink": 100},
+		{"uplink": 110, "downlink": 110},
+		{"uplink": 120, "downlink": 120},
+		{"uplink": 130, "downlink": 130}
+	]
+}

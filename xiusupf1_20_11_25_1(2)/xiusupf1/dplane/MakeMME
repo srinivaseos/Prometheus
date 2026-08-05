@@ -1,0 +1,2 @@
+all:
+	gcc -g3 mme.c app_stack.c app_command.c app_endpoint.c -o mme -I../jansson-2.13/src/ -lpthread -ljansson

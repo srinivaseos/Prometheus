@@ -1,0 +1,13 @@
+[C]17-10-2024:19:32:02:122480|LOGGER Started
+[C]17-10-2024:19:32:02:134167|aerospike_connect() succesfull  Primary-IP=192.168.149.72 Port=3000   err.code=0 err.message=  app_aero.c|app_aero__connect|127
+[C]17-10-2024:19:32:02:137594|Started Aero-Server  app_aero.c|main|352
+[C]17-10-2024:19:32:02:137683|TCP Server Started at IP=192.168.144.11 Port=9898  aero_tcp.c|app_ep_stack__server|523
+[C]17-10-2024:19:32:02:225115|TCP Server: Accepted New SocketFD=8 client=0x7f9cec000b60  aero_tcp.c|app_ep_stack__server|544
+[C]17-10-2024:19:32:02:225193|TCP Client: Starting Client Read Theaad with fd=8  aero_tcp.c|app_ep_stack__tcp_client|244
+[C]17-10-2024:19:32:02:420293|TCP Server: Accepted New SocketFD=9 client=0x7f9cec000d60  aero_tcp.c|app_ep_stack__server|544
+[C]17-10-2024:19:32:02:420349|TCP Client: Starting Client Read Theaad with fd=9  aero_tcp.c|app_ep_stack__tcp_client|244
+[D]17-10-2024:19:32:02:560903|received-message-data  id=5001  opc=3  aero_message.c|app_aero_message__execute|285
+[D]17-10-2024:19:32:02:563640|scan-completed with record-count=0  aero_message.c|app_aero_message__selectall|269
+[D]17-10-2024:19:32:02:563678|sent-message-ack  with bytes=12 pos=12 len=12  aero_message.c|app_aero_message__send_ack|79
+[C]17-10-2024:19:32:02:626999|TCP Server: Accepted New SocketFD=10 client=0x7f9cec000f60  aero_tcp.c|app_ep_stack__server|544
+[C]17-10-2024:19:32:02:627060|TCP Client: Starting Client Read Theaad with fd=10  aero_tcp.c|app_ep_stack__tcp_client|244

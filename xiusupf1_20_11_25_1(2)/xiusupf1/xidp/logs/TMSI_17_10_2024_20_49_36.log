@@ -1,0 +1,7 @@
+[C]17-10-2024:20:49:36:958439|LOGGER Started
+[C]17-10-2024:20:49:36:961803|aerospike_connect() succesfull  Primary-IP=192.168.149.72 Port=3000   err.code=0 err.message=  main.c|app_xidp__connect|217
+[C]17-10-2024:20:49:36:963714|Started XIDP-Server  main.c|main|982
+[D]17-10-2024:20:49:37:424227|scan-completed with record-count=11  main.c|app_xidp__load_as_context|708
+[C]17-10-2024:20:49:37:426388|TCP Server Started at IP=192.168.144.11 Port=9398  ../areospike_app/aero_tcp.c|app_ep_stack__server|523
+[C]17-10-2024:20:49:37:427941|TCP Server: Connected to Server with fd=9  ../areospike_app/aero_tcp.c|app_ep_stack__tcp_start_client_thread|691
+[C]17-10-2024:15:06:35:127484|TCP Server: Connection closed with fd=9  ../areospike_app/aero_tcp.c|app_ep_stack__tcp_close_client2|133

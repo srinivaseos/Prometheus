@@ -1,0 +1,10 @@
+all:
+	gcc -g3 app.c app_stack.c app_command.c app_endpoint.c app_aerospike.c pfcp_parser.c pfcp_stack.c pfcp_session.c dpi_wrapper.c ../dpdklib/ls.c \
+	-o upf_dpi -I../jansson-2.13/src/ -lpthread -ljansson -L. -leng -lupfndpi /usr/local/lib/x86_64-linux-gnu/librte_eal.so.22 \
+	-I../PACE2/ipoque_PACE2_demo_x86_64bit__version_25.02.28_without_s4/include/ipoque/ libaerospike.so libipoque_pace2.so -lssl -lz -DAEROSPIKE -DDPI -ldl -DDPI_PACE2 -lmicrohttpd -lpromhttp -lprom
+	#gcc proxyeng.c -shared -fPIC -o libengp.so
+	#gcc -g3 app.c app_stack.c app_command.c app_endpoint.c app_aerospike.c pfcp_parser.c pfcp_stack.c pfcp_session.c ../dpdklib/ls.c -o upf -I../jansson-2.13/src/ -lpthread -ljansson  -L. -lengp -lupfndpi /usr/lib/libaerospike.so -lssl -lz -DAEROSPIKE -DDPI
+	#-L. -ldpdk -DDPDK_PLOG
+	gcc -g3 pfcp_app.c app_stack.c app_command.c app_endpoint.c pfcp_parser.c pfcp_stack.c ../dpdklib/ls.c -o pfcp_app -I../jansson-2.13/src/ -lpthread -ljansson
+
+	

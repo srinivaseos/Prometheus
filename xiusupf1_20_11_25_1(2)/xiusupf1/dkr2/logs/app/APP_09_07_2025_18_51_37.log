@@ -1,0 +1,16 @@
+[C]09-07-2025:18:51:37:396719|UPF initalization completed app.c|main|941
+[C]09-07-2025:18:51:37:396754|b0025                                     Size 25    TotalCount 900000   Available 900000   Pending 0        Served 0         
+[C]09-07-2025:18:51:37:396862|b0050                                     Size 50    TotalCount 900000   Available 900000   Pending 0        Served 0         
+[C]09-07-2025:18:51:37:396870|b0100                                     Size 100   TotalCount 900000   Available 900000   Pending 0        Served 0         
+[C]09-07-2025:18:51:37:396878|b0200                                     Size 200   TotalCount 900000   Available 900000   Pending 0        Served 0         
+[C]09-07-2025:18:51:37:396885|b0300                                     Size 300   TotalCount 100000   Available 100000   Pending 0        Served 0         
+[C]09-07-2025:18:51:37:396892|b0400                                     Size 400   TotalCount 100000   Available 100000   Pending 0        Served 0         
+[C]09-07-2025:18:51:37:396899|b0500                                     Size 500   TotalCount 100000   Available 100000   Pending 0        Served 0         
+[C]09-07-2025:18:51:37:396906|b1024                                     Size 1024  TotalCount 5000     Available 5000     Pending 0        Served 0         
+[C]09-07-2025:18:51:37:396913|b2048                                     Size 2048  TotalCount 200      Available 200      Pending 0        Served 0         
+[C]09-07-2025:18:51:37:396920|b4096                                     Size 4096  TotalCount 100      Available 100      Pending 0        Served 0         
+[C]09-07-2025:18:51:37:396926|b8192                                     Size 8192  TotalCount 100      Available 100      Pending 0        Served 0         
+[C]09-07-2025:18:51:37:396933|PFCP-S                                    Size 928   TotalCount 200000   Available 200000   Pending 0        Served 0         
+[C]09-07-2025:18:51:37:396940|FLOWPL                                    Size 180   TotalCount 0        Available 0        Pending 0        Served 0         
+[C]09-07-2025:18:51:37:396949|connecting to aerospike with   ip=192.168.149.72   port=3000   namespace=test   set=dupf1   app_aerospike.c|app__as__init|120
+[C]09-07-2025:18:51:37:400343|connecting to aerospike failed   aerospike_connect() returned -10 - Failed to connect     ip=192.168.149.72   port=3000   namespace=test   set=dupf1   app_aerospike.c|app__as__connect|487

@@ -1,0 +1,19 @@
+access interface will expect packet in gtp encapsulated in udp
+
+[mess] access-drop: packet parsing status returned with sts=-1  dpdk_access.c|dpdk_access__process_pkt|255
+[info] expecting UDP packet, received other than udp packet	
+
+[mess] access-drop: packet parsing status returned with sts=-2  dpdk_access.c|dpdk_access__process_pkt|255
+[info] not a gtp packet		
+
+[mess] access-drop: packet parsing status returned with sts=-3  dpdk_access.c|dpdk_access__process_pkt|255
+[info] gtp version not matched	
+
+[mess] access-drop: packet parsing status returned with sts=-4  dpdk_access.c|dpdk_access__process_pkt|255
+[info] packet payload is null
+
+
+
+
+
+

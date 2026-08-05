@@ -1,0 +1,17 @@
+{
+	"ASServerIP": "192.168.144.11",
+	"ASServerPort": 9898,
+	"Messages" : [
+		{
+			"ID" : 1001,
+			"Name" : "t1",
+			"Elements" :[
+				{ "ID" : 1, "Name" : "E1", "Type": "UInt32" },
+				{ "ID" : 2, "Name" : "E2", "Type": "CHAR", "Length": 25 },
+				{ "ID" : 3, "Name" : "E3", "Type": "UInt32" },
+				{ "ID" : 4, "Name" : "E4", "Type": "UInt64" },
+				{ "ID" : 5, "Name" : "E5", "Type": "CHAR", "Length": 50 }
+			]
+		}
+	]
+}

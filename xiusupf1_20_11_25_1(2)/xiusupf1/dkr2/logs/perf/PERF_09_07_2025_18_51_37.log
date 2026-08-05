@@ -1,0 +1,26 @@
+XIUS NPG-5G-UPF 1.0.0.0     Started-Time: 09-07-2025 18:51:37    Current-Time: 09-07-2025:18:51:37    Running Time: 000 00:00:00   0
+
+Session Establishment Request 0        0          Response 0        0       
+Session Modification Request  0        0          Response 0        0       
+Session Delete Request        0        0          Response 0        0       
+Session Report Request        0        0          Response 0        0       
+
+Heartbeat Request Sent        0        0          RespRecv 0        0       
+Heartbeat Request Received    0        0          RespSent 0        0       
+
+PFCP-Congession               0        0       
+PFCP-Session-Self-Delete      0        0       
+
+Packets                       0        0       
+
+PFCP-SESSIONS                 CAPACITY 200000     ON-GOING 0          AVAILABLE 200000  ]
+
+
+UDP     Servers 2         Clients 0     
+UDP     Sent   0         Recv   0         TSent 0             TRecv 0         
+WThreads 40  [Queued 0        Total 0       ]  [Dequeued 0        Total 0       ] InQ 0          Pool[TotalCount 25000        Available 25000     ]
+WThreads 10  [Queued 0        Total 0       ]  [Dequeued 0        Total 0       ] InQ 0          Pool[TotalCount 25000        Available 25000     ]
+UDP Buffers
+udpb1                                     Size 56    TotalCount 25000    Available 25000    Pending 0        Served 0         
+udpb2                                     Size 1536  TotalCount 25000    Available 25000    Pending 0        Served 0         
+---------------------------------------------------------------------------------------------

@@ -1,0 +1,74 @@
+{
+	"Type" : 3,
+	"LogPath" : "logs/",
+	"EnableLogs" : 1,
+	"PerfLogPath" : "logs/",
+	"EnablePerfLogs" : 1,
+	"EnablePerfLogsTimeSpan" : 1,
+	"SkipAPICalls": 0,
+	"UserToolsPath" : "/home/dpdk/dpdk/dpdk-stable-21.11.2/usertools/",
+	"MaxSessions": 30000,
+	"Interfaces" : [
+		{
+			"BusId" : "0000:13:00.0",
+			"IfName": "ens224",
+			"Type" : "GTP-Gi",
+			"RQ" : 2,
+			"SQ" : 2,
+			"RWC" : 2,
+			"RQI": [0,1],
+			"SQI": [0,1],
+			"MemPoolSize" : 16384,
+			"RecvChunkSize": 128,
+			"RingSize" : 16384,
+			"IPv4" : "192.168.144.13",
+			"TxBusId": "0000:1b:00.0",
+			"EnableQoS": 	0,
+			"DHCPInform": 	1
+		},
+		{
+			"BusId" : "0000:1b:00.0",
+			"IfName": "ens256",
+			"Type" : "Gi-GTP",
+			"RQ" : 2,
+			"SQ" : 2,
+			"RWC" : 2,
+			"RQI": [2,3],
+			"SQI": [2,3],			
+			"MemPoolSize" : 16384,
+			"RecvChunkSize": 128,
+			"RingSize" : 16384,
+			"IPv4" : "192.168.144.14",
+			"TxBusId": "0000:13:00.0",
+			"DestIP" : "142.250.70.68",
+			"DestIP__XIUS_ISP_PROXY" : "192.168.144.54",
+			"DestMACX" : "000C291F4F01",
+			"DHCPDiscover": 0,
+			"EnableNAPT": 1,
+			"CGNAT" : [
+				{ "MAC": "100000001148", "IPv4" : "192.168.144.35" },
+				{ "MAC": "100000001149", "IPv4" : "192.168.144.36" }
+			]
+		}
+	],
+	"DHCPServer": [
+		{ "MAC": "100000001113", "IPv4" : "10.10.19.54" },
+		{ "MAC": "000000001113", "IPv4" : "10.10.19.2" },
+		{ "MAC": "74FECE95d03F", "IPv4" : "10.10.19.3" }
+	],
+	"IPMAC": [
+		{ "IPv4": "10.10.19.45"},
+		{ "IPv4": "10.10.19.17"},
+		{ "IPv4": "192.168.147.255"}
+	],
+	"CLI": {
+		"IP": "192.168.144.11",
+		"Port": 9129,
+		"Enabled": 1
+	}
+}
+
+
+
+
+

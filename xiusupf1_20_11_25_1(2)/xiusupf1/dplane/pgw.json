@@ -1,0 +1,66 @@
+{
+	"GTPServer" : {
+		"IPv4" : "192.168.149.50",
+		"Port" : 2152
+	},
+	"PFCPServer" : {
+		"IPv4" : "192.168.149.50",
+		"Port" : 8807,
+		"SEIDStartNo" : 300
+	},
+	"PFCPUserPlane" : [
+		{
+			"IPv4" : "192.168.149.50",
+			"Port" : 8808,
+			"SEIDStartNo" : 300
+		}
+	],
+	"MaxSessions" : 300000,
+	"UEIP" : [
+		{
+			"PLMN" : "89F736",
+			"CIDR" : "10.10.21.00/21"
+		},
+		{
+			"PLMN" : "89F746",
+			"CIDR" : "10.10.41.00/21"
+		}
+	],
+	"Diam" : {
+		"Host"  : "pgw",
+		"Realm" : "pgw.xius.com",
+		"IPv4"  : "192.168.149.50",
+		"Port"  : 8767,
+		"Peers" : [
+			{
+				"ApplicationId" : 4,
+				"IPv4"   : "192.168.149.51",
+				"Host"   : "att.com",
+				"Realm"  : "chf.att.com",
+				"PLMN"   : "89F736",
+				"Transport" : "tcp"
+			},
+			{
+				"ApplicationId" : 16777281,
+				"IPv4"   : "192.168.149.51",
+				"Host"   : "att.com",
+				"Realm"  : "pcrf.att.com",
+				"PLMN"   : "89F736",
+				"Transport" : "tcp"
+			}			
+		]
+	},
+	"Buffers": [
+		{"Name": "b0025", "Size": 25, "Count":  900000},
+		{"Name": "b0050", "Size": 50, "Count":  900000},
+		{"Name": "b0100", "Size": 100, "Count": 900000},
+		{"Name": "b0200", "Size": 200, "Count": 900000},
+		{"Name": "b0300", "Size": 300, "Count": 100000},
+		{"Name": "b0400", "Size": 400, "Count": 100000},
+		{"Name": "b0500", "Size": 500, "Count": 100000},
+		{"Name": "b1024", "Size": 1024, "Count":  5000},
+		{"Name": "b2048", "Size": 2048, "Count":   200},
+		{"Name": "b4096", "Size": 4096, "Count":   100},
+		{"Name": "b8192", "Size": 8192, "Count":   100}
+	]
+}

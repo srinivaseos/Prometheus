@@ -1,0 +1,19 @@
+{
+	"IP": "192.168.144.11",
+	"Port": 9397,
+	"Aerospike": {
+		"IP": [ "192.168.149.72"],
+		"Port": 3000,
+		"Namespace": "test",
+		"Set": "amfuengaiid"
+	},
+	"IDP" : {
+		"BeginNo": 10001,
+		"EndNo": 5000000,
+		"PoolSize" : 30000
+	},
+	"ASConfigFile": "./amfid_as_msg.json",
+	"AERO_APP_MsgId": 6001,
+	"LogsFolder" : "./logs",
+	"LogsPrefix": "AMFID"
+}

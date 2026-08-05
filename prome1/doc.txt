@@ -1,0 +1,25 @@
+struct MHD_Daemon *MHD_start_daemon (unsigned int flags, 
+                                     uint16_t port, 
+                                     MHD_AcceptPolicyCallback apc, 
+                                     void *apc_cls, 
+                                     MHD_AccessHandlerCallback dh, 
+                                     void *dh_cls, 
+                                     ...)
+unsigned int flags:
+These flags are bitwise OR (|) combinable, meaning you can combine multiple flags.
+
+		Flag															Description
+MHD_USE_THREAD_PER_CONNECTION				Each connection is handled in a separate thread (Good for multi-core systems).
+MHD_USE_INTERNAL_POLLING_THREAD				Uses an internal thread to handle requests instead of the calling thread.
+MHD_USE_SELECT_INTERNALLY					Uses select() internally to handle multiple connections.
+MHD_USE_EPOLL_INTERNALLY					Uses epoll() for efficient event handling (Linux only).
+MHD_USE_POLL_INTERNALLY						Uses poll() instead of select().
+MHD_USE_DEBUG								Enables debugging messages from libmicrohttpd.
+MHD_USE_SSL									Enables HTTPS using SSL/TLS (Requires SSL certificates).
+MHD_SUPPRESS_DATE_NO_CLOCK					Suppresses adding the Date header if no system clock is available.
+MHD_USE_DUAL_STACK							Enables IPv4/IPv6 dual-stack mode if available.
+`MHD_USE_AUTO								Uses an automatic mode that selects the best available option for handling connections.
+
+
+need to update:-1.passing allocted values to API in metrics,2.metrics API if reach to certian count ,it will be  counter_add. COMPLETE
+		switch case need to in successful_task ,passed by defined function COMPLETE

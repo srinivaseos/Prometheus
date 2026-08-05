@@ -1,0 +1,53 @@
+[C]16-10-2024:22:44:00:268152|LOGGER Started
+[C]16-10-2024:22:44:00:272148|aerospike_connect() succesfull  Primary-IP=192.168.149.72 Port=3000   err.code=0 err.message=  main.c|app_xidp__connect|217
+[C]16-10-2024:22:44:00:274367|Started XIDP-Server  main.c|main|982
+[D]16-10-2024:22:44:00:277843|scan-completed with record-count=0  main.c|app_xidp__load_as_context|708
+[C]16-10-2024:22:44:00:279980|TCP Server Started at IP=192.168.144.11 Port=9398  ../areospike_app/aero_tcp.c|app_ep_stack__server|523
+[C]16-10-2024:22:44:00:281587|TCP Server: Connected to Server with fd=9  ../areospike_app/aero_tcp.c|app_ep_stack__tcp_start_client_thread|691
+[C]16-10-2024:22:45:16:961948|TCP Server: Accepted New SocketFD=8 client=0x7fea40000b60  ../areospike_app/aero_tcp.c|app_ep_stack__server|544
+[C]16-10-2024:22:45:16:962000|TCP Client: Starting Client Read Theaad with fd=8  ../areospike_app/aero_tcp.c|app_ep_stack__tcp_client|244
+[C]16-10-2024:22:45:55:241229|received request with opc=1000  xmsg.id=10001  main.c|app_xidp__handle_request|481
+[C]16-10-2024:22:45:55:241294|sentBytes=84 pos=84 len=84  main.c|app_aero__as_putx|865
+[C]16-10-2024:22:46:13:062894|TCP Server: Connection closed with fd=8  ../areospike_app/aero_tcp.c|app_ep_stack__tcp_close_client|148
+[C]16-10-2024:22:50:37:536156|TCP Server: Accepted New SocketFD=6 client=0x7fea40000b60  ../areospike_app/aero_tcp.c|app_ep_stack__server|544
+[C]16-10-2024:22:50:37:536212|TCP Client: Starting Client Read Theaad with fd=6  ../areospike_app/aero_tcp.c|app_ep_stack__tcp_client|244
+[C]16-10-2024:22:50:55:519811|received request with opc=1000  xmsg.id=10001  main.c|app_xidp__handle_request|481
+[C]16-10-2024:22:50:55:519869|sentBytes=84 pos=84 len=84  main.c|app_aero__as_putx|865
+[C]16-10-2024:22:51:17:431488|TCP Server: Connection closed with fd=6  ../areospike_app/aero_tcp.c|app_ep_stack__tcp_close_client|148
+[C]16-10-2024:22:57:27:484307|TCP Server: Accepted New SocketFD=8 client=0x7fea40000b60  ../areospike_app/aero_tcp.c|app_ep_stack__server|544
+[C]16-10-2024:22:57:27:484356|TCP Client: Starting Client Read Theaad with fd=8  ../areospike_app/aero_tcp.c|app_ep_stack__tcp_client|244
+[C]16-10-2024:22:57:42:984148|received request with opc=1000  xmsg.id=10001  main.c|app_xidp__handle_request|481
+[C]16-10-2024:22:57:42:984207|sentBytes=84 pos=84 len=84  main.c|app_aero__as_putx|865
+[C]16-10-2024:22:57:50:889199|TCP Server: Connection closed with fd=8  ../areospike_app/aero_tcp.c|app_ep_stack__tcp_close_client|148
+[C]16-10-2024:23:00:45:320588|TCP Server: Accepted New SocketFD=6 client=0x7fea40000b60  ../areospike_app/aero_tcp.c|app_ep_stack__server|544
+[C]16-10-2024:23:00:45:320639|TCP Client: Starting Client Read Theaad with fd=6  ../areospike_app/aero_tcp.c|app_ep_stack__tcp_client|244
+[C]16-10-2024:23:01:05:445455|received request with opc=1000  xmsg.id=10001  main.c|app_xidp__handle_request|481
+[C]16-10-2024:23:01:05:445518|sentBytes=84 pos=84 len=84  main.c|app_aero__as_putx|865
+[C]16-10-2024:23:01:10:283900|received request with opc=1000  xmsg.id=10001  main.c|app_xidp__handle_request|481
+[C]16-10-2024:23:01:10:283959|sentBytes=84 pos=84 len=84  main.c|app_aero__as_putx|865
+[C]16-10-2024:23:01:13:780906|received request with opc=1000  xmsg.id=10001  main.c|app_xidp__handle_request|481
+[C]16-10-2024:23:01:13:780960|sentBytes=84 pos=84 len=84  main.c|app_aero__as_putx|865
+[C]16-10-2024:23:01:35:253374|TCP Server: Connection closed with fd=6  ../areospike_app/aero_tcp.c|app_ep_stack__tcp_close_client|148
+[C]16-10-2024:23:15:10:825296|TCP Server: Accepted New SocketFD=8 client=0x7fea40000b60  ../areospike_app/aero_tcp.c|app_ep_stack__server|544
+[C]16-10-2024:23:15:10:825344|TCP Client: Starting Client Read Theaad with fd=8  ../areospike_app/aero_tcp.c|app_ep_stack__tcp_client|244
+[C]16-10-2024:23:15:29:868575|received request with opc=1000  xmsg.id=10001  main.c|app_xidp__handle_request|481
+[C]16-10-2024:23:15:29:868634|sentBytes=84 pos=84 len=84  main.c|app_aero__as_putx|865
+[C]16-10-2024:23:15:38:834178|TCP Server: Connection closed with fd=8  ../areospike_app/aero_tcp.c|app_ep_stack__tcp_close_client|148
+[C]17-10-2024:07:12:55:020351|TCP Server: Accepted New SocketFD=6 client=0x7fea40000b60  ../areospike_app/aero_tcp.c|app_ep_stack__server|544
+[C]17-10-2024:07:12:55:020397|TCP Client: Starting Client Read Theaad with fd=6  ../areospike_app/aero_tcp.c|app_ep_stack__tcp_client|244
+[C]17-10-2024:07:13:38:824688|received request with opc=1000  xmsg.id=10001  main.c|app_xidp__handle_request|481
+[C]17-10-2024:07:13:38:824759|sentBytes=84 pos=84 len=84  main.c|app_aero__as_putx|865
+[C]17-10-2024:07:14:05:891924|TCP Server: Connection closed with fd=6  ../areospike_app/aero_tcp.c|app_ep_stack__tcp_close_client|148
+[C]17-10-2024:08:16:39:288339|TCP Server: Accepted New SocketFD=8 client=0x7fea40000b60  ../areospike_app/aero_tcp.c|app_ep_stack__server|544
+[C]17-10-2024:08:16:39:288402|TCP Client: Starting Client Read Theaad with fd=8  ../areospike_app/aero_tcp.c|app_ep_stack__tcp_client|244
+[C]17-10-2024:08:16:58:928186|received request with opc=1000  xmsg.id=10001  main.c|app_xidp__handle_request|481
+[C]17-10-2024:08:16:58:928252|sentBytes=84 pos=84 len=84  main.c|app_aero__as_putx|865
+[C]17-10-2024:08:24:43:400113|TCP Server: Connection closed with fd=8  ../areospike_app/aero_tcp.c|app_ep_stack__tcp_close_client|148
+[C]17-10-2024:08:50:45:380508|TCP Server: Accepted New SocketFD=6 client=0x7fea40000b60  ../areospike_app/aero_tcp.c|app_ep_stack__server|544
+[C]17-10-2024:08:50:45:380573|TCP Client: Starting Client Read Theaad with fd=6  ../areospike_app/aero_tcp.c|app_ep_stack__tcp_client|244
+[C]17-10-2024:08:51:04:223221|received request with opc=1000  xmsg.id=10001  main.c|app_xidp__handle_request|481
+[C]17-10-2024:08:51:04:223282|sentBytes=84 pos=84 len=84  main.c|app_aero__as_putx|865
+[C]17-10-2024:08:51:14:028838|received request with opc=1000  xmsg.id=10001  main.c|app_xidp__handle_request|481
+[C]17-10-2024:08:51:14:028893|sentBytes=84 pos=84 len=84  main.c|app_aero__as_putx|865
+[C]17-10-2024:08:51:32:952096|TCP Server: Connection closed with fd=6  ../areospike_app/aero_tcp.c|app_ep_stack__tcp_close_client|148
+[C]17-10-2024:13:42:28:322637|TCP Server: Connection closed with fd=9  ../areospike_app/aero_tcp.c|app_ep_stack__tcp_close_client2|133

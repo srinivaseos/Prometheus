@@ -1,0 +1,21 @@
+[Unit]
+Description=amfid
+After=networking.service
+
+[Service]
+Type=simple
+
+User=dpdk
+Group=dpdk
+
+StandardOutput=syslog
+StandardError=syslog
+Restart=always
+WorkingDirectory=//home/dpdk/xiusupf/xidp/
+ExecStart=/home/dpdk/xiusupf/xidp/xidp ./amfuengapid.json
+RestartSec=2
+RestartPreventExitStatus=1
+ExecReload=/bin/kill -HUP $MAINPID
+
+[Install]
+WantedBy=multi-user.target

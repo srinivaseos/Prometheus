@@ -1,0 +1,19 @@
+{
+	"IP": "192.168.144.11",
+	"Port": 9398,
+	"Aerospike": {
+		"IP": [ "192.168.149.72"],
+		"Port": 3000,
+		"Namespace": "test",
+		"Set": "tmsiid"
+	},
+	"IDP" : {
+		"BeginNo": 1001,
+		"EndNo": 5000000,
+		"PoolSize" : 30000
+	},
+	"ASConfigFile": "./tmsi_as_msg.json",
+	"AERO_APP_MsgId": 6501,
+	"LogsFolder" : "./logs",
+	"LogsPrefix": "TMSI"
+}

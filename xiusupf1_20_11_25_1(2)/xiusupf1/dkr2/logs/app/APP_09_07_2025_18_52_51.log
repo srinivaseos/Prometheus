@@ -1,0 +1,15 @@
+[C]09-07-2025:18:52:51:915229|UPF initalization completed app.c|main|941
+[C]09-07-2025:18:52:51:915253|b0025                                     Size 25    TotalCount 900000   Available 900000   Pending 0        Served 0         
+[C]09-07-2025:18:52:51:915303|b0050                                     Size 50    TotalCount 900000   Available 900000   Pending 0        Served 0         
+[C]09-07-2025:18:52:51:915313|b0100                                     Size 100   TotalCount 900000   Available 900000   Pending 0        Served 0         
+[C]09-07-2025:18:52:51:915325|b0200                                     Size 200   TotalCount 900000   Available 900000   Pending 0        Served 0         
+[C]09-07-2025:18:52:51:915337|b0300                                     Size 300   TotalCount 100000   Available 100000   Pending 0        Served 0         
+[C]09-07-2025:18:52:51:915349|b0400                                     Size 400   TotalCount 100000   Available 100000   Pending 0        Served 0         
+[C]09-07-2025:18:52:51:915361|b0500                                     Size 500   TotalCount 100000   Available 100000   Pending 0        Served 0         
+[C]09-07-2025:18:52:51:915374|b1024                                     Size 1024  TotalCount 5000     Available 5000     Pending 0        Served 0         
+[C]09-07-2025:18:52:51:915388|b2048                                     Size 2048  TotalCount 200      Available 200      Pending 0        Served 0         
+[C]09-07-2025:18:52:51:915399|b4096                                     Size 4096  TotalCount 100      Available 100      Pending 0        Served 0         
+[C]09-07-2025:18:52:51:915411|b8192                                     Size 8192  TotalCount 100      Available 100      Pending 0        Served 0         
+[C]09-07-2025:18:52:51:915424|PFCP-S                                    Size 928   TotalCount 200000   Available 200000   Pending 0        Served 0         
+[C]09-07-2025:18:52:51:915434|FLOWPL                                    Size 180   TotalCount 0        Available 0        Pending 0        Served 0         
+[C]09-07-2025:18:52:51:915441|initalizing dpdk    app.c|main|968

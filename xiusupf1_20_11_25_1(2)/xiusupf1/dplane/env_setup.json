@@ -1,0 +1,9 @@
+{
+	"DriverName" 	: "vfio-pci",
+	"HugePagesGB"	: 12,
+	"NumaNodes"		: 1,
+	"Eths" : [
+		{ "Name" : "ens224", "Bus" : "0000:13:00.0"},
+		{ "Name" : "ens256", "Bus" : "0000:1b:00.0"}
+	]
+}
